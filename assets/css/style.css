@@ -8,14 +8,14 @@
 
 html,body{
   overflow-x: hidden;
-  overflow-y: auto;
 }
 
 .hero {
-    height: 100vh;
+    height: 150vh;
     background: url("/assets/images/europelandingpage.jpg");
     background-size: cover;
     padding-bottom: 0px;
+    z-index: -1;
 }
 
 .main-logo {
@@ -56,6 +56,12 @@ html,body{
 }
 
 /*-------------------Landing page columns*/
+
+.index-container {
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .trans-box-cta {
     max-width: 40%;
@@ -98,7 +104,8 @@ html,body{
     margin-right: 80px;
     margin-left: 80px;
     float: right;
-    background-image: linear-gradient(to left, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2))
+    background-image: linear-gradient(to left, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2));
+    align-self: flex-end;
 }
 
 .trans-box-inspire h4 {
@@ -183,6 +190,71 @@ html,body{
     }
 }
 
+.review-bubble {
+    position: relative;
+    background: rgba(246, 224, 224, 0.8);
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: 50px;
+    max-width: 40%;
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    cursor: help;
+}
+
+.review-bubble:after {
+    content: "";
+    display: block;
+    position: absolute;
+
+    left: -20px;
+    top: 20px;
+
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid rgba(246, 224, 224, 0.8);
+}
+
+.review-bubble-2 {
+    position: relative;
+    background: rgba(246, 224, 224, 0.8);
+    padding: 25px;
+    border-radius: 5px;
+    margin-right: 220px;
+    margin-top: 50px;
+    max-width: 40%;
+    align-self: flex-end;
+    font-family: 'Montserrat', serif;
+    text-align: center;
+    cursor: help;
+}
+
+.review-bubble:hover {
+    transform: scale(1.2);
+}
+
+.review-bubble-2:hover {
+    transform: scale(1.2);
+}
+
+.review-bubble-2:after {
+    content: "";
+    display: block;
+    position: absolute;
+
+    right: -20px;
+    top: 20px;
+
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid rgba(246, 224, 224, 0.8);
+}
+
 /*---------------------Footer/Social icons*/
 
 a {
@@ -207,3 +279,4 @@ a:hover {
 .footer-container {
     background-image: linear-gradient(to top, rgba(54, 44, 43, 1), rgba(66, 73, 73, 0.8));
 }
+
