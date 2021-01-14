@@ -6,10 +6,16 @@
     box-sizing: border-box;
 }
 
+html,body{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 .hero {
     height: 100vh;
     background: url("/assets/images/europelandingpage.jpg");
     background-size: cover;
+    padding-bottom: 0px;
 }
 
 .main-logo {
@@ -17,46 +23,46 @@
     align-items: center;
     justify-content: space-around;
     padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 25px;
+    font-size: 160%;
     text-transform: uppercase;
     text-decoration: underline;
     font-family: 'Ibarra Real Nova', serif;
-    color: #F4F6F6;
-    background-image: linear-gradient(to bottom, rgba(100, 40, 0, 1), rgba(100, 40, 0, 0.6));
+    color: rgba(54, 44, 43, 1);
+    text-shadow: 3px 0px #F4F6F6;
 }
 
 
-.nav-items {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+.navbar-nav {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'Montserrat', serif;
     text-decoration: underline;
-    padding-bottom: 50px;
     font-weight: 200;
-    background-image: linear-gradient(to bottom, rgba(100, 40, 0, 0.6), rgba(100, 40, 0, 0));
 }
 
-.nav-items li{
+.nav-item {
+    padding-left: 60px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.nav-link li{
     list-style: none;
 }
 
 .link {
     text-decoration: none;
-    color: #F4F6F6;
-    padding-bottom: 15px;    
+    padding-bottom: 15px;   
 }
 
-/*-------------------Landing page left column*/
+/*-------------------Landing page columns*/
 
 .trans-box-cta {
     max-width: 40%;
     border: 1px black;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 80px;
+    margin-right: 80px;
     background-image: linear-gradient(to right, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2))
 }
 
@@ -85,10 +91,12 @@
 }
 
 .trans-box-inspire {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     max-width: 40%;
     border: 1px black;
     margin-right: 80px;
+    margin-left: 80px;
     float: right;
     background-image: linear-gradient(to left, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2))
 }
@@ -113,4 +121,89 @@
 
 .trans-box-inspire span {
     font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .trans-box-cta, .trans-box-inspire {
+        max-width: 65%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .trans-box-cta, .trans-box-inspire {
+        margin-top: 80px;
+        max-width: 65%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-logo {
+        font-size: 125%;
+    }
+}
+
+
+@media screen and (max-width: 530px) {
+    .trans-box-cta, .trans-box-inspire {
+        margin-top: 5px;
+        max-width: 80%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .trans-box-cta, .trans-box-inspire {
+        margin-top: 15px;
+        max-width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .trans-box-inspire h4, .trans-box-inspire p, .trans-box-cta h4, .trans-box-cta p {
+        font-size: 75%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .trans-box-cta, .trans-box-inspire {
+        margin-top: 5px;
+        max-width: 95%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .trans-box-inspire h4, .trans-box-inspire p, .trans-box-cta h4, .trans-box-cta p {
+        font-size: 75%;
+    }
+}
+
+/*---------------------Footer/Social icons*/
+
+a {
+    text-decoration: none;
+    color: #F4F6F6;
+}
+
+a:hover {
+    color: #000000;
+}
+
+
+.footer-icon {
+    text-align: center;
+    width: 20px;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    background-image: linear-gradient(to top, rgba(54, 44, 43, 1), rgba(66, 73, 73, 0.8));
 }
