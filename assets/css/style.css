@@ -16,14 +16,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 5px;
-    font-size: 2rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px;
     text-transform: uppercase;
     text-decoration: underline;
-    letter-spacing: 2px;
     font-family: 'Ibarra Real Nova', serif;
-    color: #fff;
-    background-image: linear-gradient(to bottom, rgba(138,63,164.1), rgba(138,63,164,0.6));
+    color: #F4F6F6;
+    background-image: linear-gradient(to bottom, rgba(100, 40, 0, 1), rgba(100, 40, 0, 0.6));
 }
 
 
@@ -33,9 +33,11 @@
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Montserrat', serif;
+    text-decoration: underline;
     padding-bottom: 50px;
-    background-image: linear-gradient(to bottom, rgba(138,63,164,0.6), rgba(138,63,164,0));
+    font-weight: 200;
+    background-image: linear-gradient(to bottom, rgba(100, 40, 0, 0.6), rgba(100, 40, 0, 0));
 }
 
 .nav-items li{
@@ -44,7 +46,71 @@
 
 .link {
     text-decoration: none;
-    color: #fff;
+    color: #F4F6F6;
     padding-bottom: 15px;    
 }
 
+/*-------------------Landing page left column*/
+
+.trans-box-cta {
+    max-width: 40%;
+    border: 1px black;
+    margin-top: 50px;
+    margin-left: 80px;
+    background-image: linear-gradient(to right, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2))
+}
+
+.trans-box-cta h4 {
+  padding-top: 15px;
+  font-weight: 200;
+  color: #F4F6F6;
+  font-family: 'Montserrat', serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+.trans-box-cta p {
+  margin: 4%;
+  padding-bottom: 15px;  
+  font-weight: 200;
+  color: #F4F6F6;
+  font-family: 'Montserrat', serif;
+  text-align: center;
+}
+
+.trans-box-cta span {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 130%;
+}
+
+.trans-box-inspire {
+    margin-top: 50px;
+    max-width: 40%;
+    border: 1px black;
+    margin-right: 80px;
+    float: right;
+    background-image: linear-gradient(to left, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2))
+}
+
+.trans-box-inspire h4 {
+  padding-top: 15px;
+  font-weight: 200;
+  color: #F4F6F6;
+  font-family: 'Montserrat', serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+.trans-box-inspire p {
+  margin: 4%; 
+  font-weight: 200;
+  color: #F4F6F6;
+  font-family: 'Montserrat', serif;
+  text-align: center;
+}
+
+.trans-box-inspire span {
+    font-weight: bold;
+}
