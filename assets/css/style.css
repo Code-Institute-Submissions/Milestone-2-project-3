@@ -190,7 +190,7 @@ html,body{
     }
 }
 
-.review-bubble {
+#review-bubble {
     position: relative;
     background: rgba(246, 224, 224, 0.8);
     padding: 25px;
@@ -198,12 +198,12 @@ html,body{
     margin-left: 220px;
     margin-top: 50px;
     max-width: 40%;
+    min-width: 30%;
     font-family: 'Montserrat', serif;
     text-align: center;
-    cursor: help;
 }
 
-.review-bubble:after {
+#review-bubble:after {
     content: "";
     display: block;
     position: absolute;
@@ -218,7 +218,7 @@ html,body{
     border-right: 20px solid rgba(246, 224, 224, 0.8);
 }
 
-.review-bubble-2 {
+#review-bubble-2 {
     position: relative;
     background: rgba(246, 224, 224, 0.8);
     padding: 25px;
@@ -226,21 +226,13 @@ html,body{
     margin-right: 220px;
     margin-top: 50px;
     max-width: 40%;
+    min-width:30%;
     align-self: flex-end;
     font-family: 'Montserrat', serif;
     text-align: center;
-    cursor: help;
 }
 
-.review-bubble:hover {
-    transform: scale(1.2);
-}
-
-.review-bubble-2:hover {
-    transform: scale(1.2);
-}
-
-.review-bubble-2:after {
+#review-bubble-2:after {
     content: "";
     display: block;
     position: absolute;
