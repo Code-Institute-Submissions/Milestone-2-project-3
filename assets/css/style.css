@@ -10,8 +10,8 @@ html,body{
   overflow-x: hidden;
 }
 
-.hero {
-    height: 150vh;
+.hero-landing {
+    height: 170vh;
     background: url("/assets/images/europelandingpage.jpg");
     background-size: cover;
     padding-bottom: 0px;
@@ -19,9 +19,7 @@ html,body{
 }
 
 .main-logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    margin-left: 60px;
     padding-bottom: 10px;
     font-size: 160%;
     text-transform: uppercase;
@@ -31,34 +29,31 @@ html,body{
     text-shadow: 3px 0px #F4F6F6;
 }
 
+.navbar {
+    background-image: linear-gradient(to bottom, rgba(54, 44, 43, 0.5), rgba(66, 73, 73, 0));
+}
 
 .navbar-nav {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-family: 'Montserrat', serif;
-    text-decoration: underline;
-    font-weight: 200;
+    margin: auto;
 }
 
 .nav-item {
-    padding-left: 60px;
-    text-align: center;
+    font-family: 'Montserrat', serif;
+    padding-left: 50px;
+    font-size: 120%;
+    text-decoration: underline;
     font-weight: 300;
 }
 
-.nav-link li{
-    list-style: none;
+.active {
+    font-weight: 400;
 }
 
-.link {
-    text-decoration: none;
-    padding-bottom: 15px;   
-}
 
 /*-------------------Landing page columns*/
 
 .index-container {
-    height: 140vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
 }
@@ -272,3 +267,33 @@ a:hover {
     background-image: linear-gradient(to top, rgba(54, 44, 43, 1), rgba(66, 73, 73, 0.8));
 }
 
+/*----------------------------westeurope*/
+
+.hero-weurope {
+    height: 170vh;
+    background: url("/assets/images/weuropeheroimage.jpg");
+    background-size: cover;
+    padding-bottom: 0px;
+    z-index: -1;
+}
+
+
+/*----------------------------easteurope*/
+
+.hero-eeurope {
+    height: 170vh;
+    background: url("/assets/images/eeuropeheroimage.jpg");
+    background-size: cover;
+    padding-bottom: 0px;
+    z-index: -1;
+}
+
+/*----------------------------contact*/
+
+.hero-contact {
+    height: 95vh;
+    background: url("/assets/images/contactheroimage.jpg");
+    background-size: cover;
+    padding-bottom: 0px;
+    z-index: -1;
+}
