@@ -11,6 +11,11 @@ html,body{
   overflow-x: hidden;
 }
 
+body {
+    font-family: 'Montserrat', serif;
+    color: #F4F6F6;
+}
+
 .hero-landing {
     height: 170vh;
     background: url("/assets/images/europelandingpage.jpg");
@@ -64,7 +69,7 @@ html,body{
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 80px;
-    background-image: linear-gradient(to right, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2))
+    background-image: linear-gradient(to right, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2));
 }
 
 .trans-box-cta h4 {
@@ -188,7 +193,7 @@ html,body{
 
 #review-bubble {
     position: relative;
-    background: rgba(246, 224, 224, 0.8);
+    background: rgba(246, 224, 224, 0.6);
     padding: 25px;
     border-radius: 5px;
     margin-left: 220px;
@@ -212,12 +217,12 @@ html,body{
     height: 0;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-right: 20px solid rgba(246, 224, 224, 0.8);
+    border-right: 20px solid rgba(246, 224, 224, 0.6);
 }
 
 #review-bubble-2 {
     position: relative;
-    background: rgba(246, 224, 224, 0.8);
+    background: rgba(246, 224, 224, 0.6);
     padding: 25px;
     border-radius: 5px;
     margin-right: 220px;
@@ -242,7 +247,7 @@ html,body{
     height: 0;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-left: 20px solid rgba(246, 224, 224, 0.8);
+    border-left: 20px solid rgba(246, 224, 224, 0.6);
 }
 
 /*---------------------Footer/Social icons*/
@@ -273,7 +278,7 @@ a:hover {
 /*----------------------------westeurope*/
 
 .hero-weurope {
-    height: 170vh;
+    height: 240vh;
     background: url("/assets/images/weuropeheroimage.jpg");
     background-size: cover;
     padding-bottom: 0px;
@@ -284,7 +289,7 @@ a:hover {
 /*----------------------------easteurope*/
 
 .hero-eeurope {
-    height: 170vh;
+    height: 240vh;
     background: url("/assets/images/eeuropeheroimage.jpg");
     background-size: cover;
     padding-bottom: 0px;
@@ -373,4 +378,99 @@ a:hover {
     .input-class, .message {
         width: 100%;
     }
+}
+
+/*----------------------Europe pages global sections*/
+
+.page-heading-container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 75%;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(84, 78, 78, 0.5), rgba(84, 78, 78, 0.2));
+
+}
+
+.page-heading-container h2 {
+    color: #F4F6F6;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.page-heading-container p {
+    color: #F4F6F6;    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-container button {
+    text-transform: uppercase;
+    font-size: 130%;
+    letter-spacing: 2px;
+    color: rgba(54, 44, 43, 1);
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0;
+    color: #F4F6F6;
+    background-color: rgba(84, 78, 78, 0.8);
+    cursor: pointer;
+}
+
+.map-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 90%;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(84, 78, 78, 0.5), rgba(84, 78, 78, 0.2));
+}
+
+.resort-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.resort-info h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.places-of-interest {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 90%;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(84, 78, 78, 0.5), rgba(84, 78, 78, 0.2));
+}
+
+.places-of-interest p {
+    padding: 10px 50px 10px 50px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 85%;
+    margin: auto;
+}
+
+.resort-image {
+    max-width: 30%;
+    max-height: 30%;
+    transition: transform .2s;
+}
+
+.resort-image:hover {
+    transform: scale(1.15);
 }
