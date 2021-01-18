@@ -147,45 +147,86 @@ body {
 @media screen and (max-width: 768px) {
     .trans-box-cta, .trans-box-inspire {
         margin-top: 80px;
-        max-width: 65%;
+        max-width: 75%;
+        align-items: center;
     }
 }
 
+
+@media screen and (max-width: 1024px) {
+    .main-logo {
+        font-size: 125%;
+    }
+    .hero-landing {
+        height: 100vh;
+    }
+    .index-container {
+        height: 90vh;
+    }
+}
 @media screen and (max-width: 768px) {
     .main-logo {
         font-size: 125%;
     }
+    .hero-landing {
+        height: 110vh;
+    }
+    .index-container {
+        height: 100vh;
+    }
 }
 
+
+@media screen and (max-width: 1024px) {
+    .trans-box-cta, .trans-box-inspire {
+        max-width: 80%;
+        margin: 30px auto;
+        align-self: center;
+    }
+}
 
 @media screen and (max-width: 530px) {
     .trans-box-cta, .trans-box-inspire {
-        margin-top: 5px;
+        margin-top: 20px;
         max-width: 80%;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-self: center;
+    }
+    .hero-landing {
+        height: 130vh;
+    }
+    .index-container {
+        height: 120vh;
+    }
+    .main-logo {
+        font-size: 180%;
     }
 }
 
 @media screen and (max-width: 375px) {
     .trans-box-cta, .trans-box-inspire {
-        margin-top: 15px;
+        margin-top: 20px;
         max-width: 90%;
         margin-left: 20px;
         margin-right: 20px;
+        align-self: center;
     }
 }
 
-@media screen and (max-width: 375px) {
-    .trans-box-inspire h4, .trans-box-inspire p, .trans-box-cta h4, .trans-box-cta p {
-        font-size: 75%;
+@media screen and (max-width: 360px) {
+    .trans-box-cta, .trans-box-inspire {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        max-width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-self: center;
     }
 }
-
-
 @media screen and (max-width: 320px) {
     .trans-box-cta, .trans-box-inspire {
-        margin-top: 5px;
+        margin-top: 20px;
         max-width: 95%;
         margin-left: 20px;
         margin-right: 20px;
@@ -259,6 +300,60 @@ body {
     border-left: 20px solid rgba(246, 224, 224, 0.6);
 }
 
+@media screen and (max-width: 1024px) {
+    #review-bubble, #review-bubble-2 {
+        margin: 70px auto;
+        max-width: 55%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #review-bubble, #review-bubble-2 {
+        margin: 50px auto;
+        max-width: 55%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #review-bubble, #review-bubble-2 {
+        margin-top: 20px;
+        max-width: 80%;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #review-bubble, #review-bubble-2 {
+        margin-top: 0px;
+        max-width: 80%;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #review-bubble, #review-bubble-2 {
+        margin-top: 0px;
+        max-width: 80%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #review-bubble, #review-bubble-2 {
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+}
+
 /*---------------------Footer/Social icons*/
 
 a {
@@ -327,13 +422,11 @@ a:hover {
     z-index: -1;
 }
 
+
 .form-container {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding-left: 20px;
     width: 100%;
 }
+
 
 .form {
     max-width: 500px;
@@ -344,6 +437,7 @@ a:hover {
     display: flex;
     box-shadow: 0 0 2px;
 }
+
 
 .input-class {
     margin-right: 5%;
@@ -365,6 +459,7 @@ a:hover {
     width: 100%;
 }
 
+
 .message textarea {
     height: 120px;
 }
@@ -374,8 +469,8 @@ a:hover {
     color: #F4F6F6;
     text-align: center;
     text-transform: uppercase;
-    padding-left: 65px;
 }
+
 
 ::-webkit-input-placeholder {
     color: #F4F6F6;
@@ -392,14 +487,49 @@ a:hover {
     font-family: 'Montserrat', serif;
 }
 
+@media screen and (max-width: 1366px){
+    .form {
+        margin: 100px auto;
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .form {
+        margin: 120px auto;
+    }
+}
 @media screen and (max-width: 600px){
     .form {
-        width:75%;
+        width: 80%;
+        padding-top: 0px;
+        padding-bottom: 10px;
     }
     .input-class, .message {
         width: 100%;
     }
 }
+@media screen and (max-width: 415px) {
+    .form {
+        flex-direction: column;
+        margin: 50px auto;
+    }
+    .message textarea {
+    height: 60px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .form {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .message textarea {
+    height: 60px;
+    }
+}
+
+
 
 /*----------------------Europe pages global sections*/
 
@@ -422,8 +552,6 @@ a:hover {
 
 .page-heading-container p {
     color: #F4F6F6;    
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .button-container {
@@ -513,5 +641,40 @@ a:hover {
         max-width: 60%;
         margin: auto;
         padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .hero-eeurope, .hero-weurope {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-eeurope, .hero-weurope {
+        height: 200vh;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .hero-eeurope, .hero-weurope {
+        height: 300vh;
+    }
+}
+@media screen and (max-width: 375px){
+    .hero-eeurope, .hero-weurope {
+        height: 330vh;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .hero-eeurope, .hero-weurope {
+        height: 350vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .hero-eeurope, .hero-weurope {
+        height: 420vh;
     }
 }
