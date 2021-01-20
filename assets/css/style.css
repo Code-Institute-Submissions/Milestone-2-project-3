@@ -68,15 +68,14 @@ body {
     height: 150vh;
     display: flex;
     flex-direction: column;
+    margin: 100px 100px 50px 100px;
 }
 
 .trans-box-cta {
-    max-width: 40%;
+    max-width: 48%;
     border: 1px black;
-    margin-top: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
     background-image: linear-gradient(to right, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2));
+    margin-bottom: 25px;
 }
 
 .trans-box-cta h4 {
@@ -104,16 +103,11 @@ body {
 }
 
 .trans-box-inspire {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-    max-width: 40%;
+    max-width: 48%;
     border: 1px black;
-    margin-right: 80px;
-    margin-left: 80px;
-    float: right;
     background-image: linear-gradient(to left, rgba(84, 78, 78, 0.6), rgba(84, 78, 78, 0.2));
     align-self: flex-end;
+    margin-bottom: 25px;
 }
 
 .trans-box-inspire h4 {
@@ -138,120 +132,18 @@ body {
     font-weight: bold;
 }
 
-@media screen and (max-width: 1024px) {
-    .trans-box-cta, .trans-box-inspire {
-        max-width: 65%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .trans-box-cta, .trans-box-inspire {
-        margin-top: 80px;
-        max-width: 75%;
-        align-items: center;
-    }
-}
-
-
-@media screen and (max-width: 1024px) {
-    .main-logo {
-        font-size: 125%;
-    }
-    .hero-landing {
-        height: 100vh;
-    }
-    .index-container {
-        height: 90vh;
-    }
-}
-@media screen and (max-width: 768px) {
-    .main-logo {
-        font-size: 125%;
-    }
-    .hero-landing {
-        height: 110vh;
-    }
-    .index-container {
-        height: 100vh;
-    }
-}
-
-
-@media screen and (max-width: 1024px) {
-    .trans-box-cta, .trans-box-inspire {
-        max-width: 80%;
-        margin: 30px auto;
-        align-self: center;
-    }
-}
-
-@media screen and (max-width: 530px) {
-    .trans-box-cta, .trans-box-inspire {
-        margin-top: 20px;
-        max-width: 80%;
-        margin-left: 20px;
-        margin-right: 20px;
-        align-self: center;
-    }
-    .hero-landing {
-        height: 130vh;
-    }
-    .index-container {
-        height: 120vh;
-    }
-    .main-logo {
-        font-size: 180%;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .trans-box-cta, .trans-box-inspire {
-        margin-top: 20px;
-        max-width: 90%;
-        margin-left: 20px;
-        margin-right: 20px;
-        align-self: center;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .trans-box-cta, .trans-box-inspire {
-        margin-top: 20px;
-        margin-bottom: 5px;
-        max-width: 90%;
-        margin-left: 20px;
-        margin-right: 20px;
-        align-self: center;
-    }
-}
-@media screen and (max-width: 320px) {
-    .trans-box-cta, .trans-box-inspire {
-        margin-top: 20px;
-        max-width: 95%;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .trans-box-inspire h4, .trans-box-inspire p, .trans-box-cta h4, .trans-box-cta p {
-        font-size: 75%;
-    }
-}
-
 #review-bubble {
     position: relative;
     background: rgba(246, 224, 224, 0.6);
     padding: 25px;
     border-radius: 5px;
-    margin-left: 220px;
-    margin-top: 50px;
-    max-width: 40%;
+    max-width: 48%;
     min-width: 30%;
     font-family: 'Montserrat', serif;
     font-size: 85%;
     text-align: center;
     cursor: quesion;
+    margin-bottom: 25px;
 }
 
 #review-bubble:after {
@@ -274,15 +166,14 @@ body {
     background: rgba(246, 224, 224, 0.6);
     padding: 25px;
     border-radius: 5px;
-    margin-right: 220px;
-    margin-top: 50px;
-    max-width: 40%;
-    min-width:30%;
-    align-self: flex-end;
+    max-width: 48%;
+    min-width: 30%;
     font-family: 'Montserrat', serif;
-    font-size: 90%;
+    font-size: 85%;
     text-align: center;
     cursor: quesion;
+    align-self: flex-end;
+    margin-bottom: 25px;
 }
 
 #review-bubble-2:after {
@@ -301,44 +192,87 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
+    .trans-box-cta, .trans-box-inspire {
+        max-width: 80%;
+        margin: 30px;
+        align-self: center;
+    }
+    .main-logo {
+        font-size: 125%;
+    }
+    .hero-landing {
+        height: 150vh;
+    }
+    .index-container {
+        height: 140vh;
+    }
     #review-bubble, #review-bubble-2 {
-        margin: 70px auto;
+        margin: 30px;
         max-width: 55%;
         align-self: center;
+    }
+    .index-container {
+        margin: 40px;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .trans-box-cta, .trans-box-inspire {
+        margin-top: 30px;
+        max-width: 75%;
+        align-items: center;
+    }
+    .main-logo {
+        font-size: 125%;
+    }
+    .hero-landing {
+        height: 110vh;
+    }
+    .index-container {
+        height: 100vh;
+    }
     #review-bubble, #review-bubble-2 {
-        margin: 50px auto;
+        margin: 30px;
         max-width: 55%;
         align-self: center;
+    }
+    .index-container {
+        margin: 35px;
     }
 }
 
 @media screen and (max-width: 530px) {
-    #review-bubble, #review-bubble-2 {
-        margin-top: 20px;
+    .trans-box-cta, .trans-box-inspire {
+        margin: 20px;
         max-width: 80%;
-        margin-left: 20px;
-        margin-right: 20px;
         align-self: center;
     }
-}
-
-@media screen and (max-width: 415px) {
+    .hero-landing {
+        height: 150vh;
+    }
+    .index-container {
+        height: 140vh;
+    }
+    .main-logo {
+        font-size: 180%;
+    }
     #review-bubble, #review-bubble-2 {
-        margin-top: 0px;
+        margin: 20px;
         max-width: 80%;
-        margin-left: 20px;
-        margin-right: 20px;
         align-self: center;
+    }
+    .index-container {
+        margin: 30px;
     }
 }
 
 @media screen and (max-width: 375px) {
+    .trans-box-cta, .trans-box-inspire {
+        margin: 20px;
+        max-width: 90%;
+        align-self: center;
+    }
     #review-bubble, #review-bubble-2 {
-        margin-top: 0px;
         max-width: 80%;
         margin-left: 10px;
         margin-right: 10px;
@@ -348,9 +282,37 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+    .trans-box-cta, .trans-box-inspire {
+        margin: 15px;
+        max-width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-self: center;
+        font-size: 80%;
+    }
     #review-bubble, #review-bubble-2 {
-        margin-bottom: 20px;
+        margin: 15px;
         padding: 5px;
+    }
+    .index-container {
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .trans-box-cta, .trans-box-inspire {
+        margin: 15px;
+        max-width: 95%;
+        align-items: center;
+    }
+    #review-bubble, #review-bubble-2 {
+        margin: 15px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .trans-box-inspire h4, .trans-box-cta h4 {
+        font-size: 110%;
     }
 }
 
@@ -422,11 +384,9 @@ a:hover {
     z-index: -1;
 }
 
-
 .form-container {
     width: 100%;
 }
-
 
 .form {
     max-width: 500px;
@@ -437,7 +397,6 @@ a:hover {
     display: flex;
     box-shadow: 0 0 2px;
 }
-
 
 .input-class {
     margin-right: 5%;
@@ -458,7 +417,6 @@ a:hover {
     padding: 10px;
     width: 100%;
 }
-
 
 .message textarea {
     height: 120px;

@@ -1,12 +1,12 @@
 $(document).ready(function() { 
-    $("#review-bubble").click(function() { 
+    $("#review-bubble").mouseenter(function() { 
         $("#review-bubble p").slideToggle("slow", 
                 function callback() { 
             $("#review-bubble p").text("Aquitaine, France").css("font-size", "30px");
         }); 
     }); 
 
-    $("#review-bubble").mouseleave(function() { 
+    $("#review-bubble").mouseenter(function() { 
         $("#review-bubble p").slideToggle("slow", 
                 function callback() { 
             $("#review-bubble p").text("'I had just found out that my great grandparents were related to French Royalty so I decided to book a trip to my ancestral homeland (or at least that's what I'm going to tell my friends!'").css("font-size", "14px");
