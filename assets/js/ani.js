@@ -1,4 +1,7 @@
 $(document).ready(function() { 
+
+
+
     $("#review-bubble").mouseenter(function() { 
         $("#review-bubble p").slideToggle("slow", 
                 function callback() { 
@@ -6,7 +9,7 @@ $(document).ready(function() {
         }); 
     }); 
 
-    $("#review-bubble").mouseenter(function() { 
+    $("#review-bubble").mouseleave(function() { 
         $("#review-bubble p").slideToggle("slow", 
                 function callback() { 
             $("#review-bubble p").text("'I had just found out that my great grandparents were related to French Royalty so I decided to book a trip to my ancestral homeland (or at least that's what I'm going to tell my friends!'").css("font-size", "14px");
@@ -80,3 +83,43 @@ $(document).ready(function() {
         $("#image-one-east").attr("src","assets/images/tblisistatue.jpg"), $("#image-two-east").attr("src","assets/images/tblisitown.jpg"), $("#image-three-east").attr("src","assets/images/tblisichurch.jpg");
     });
 }); 
+
+    $("#bern-button").click(function(initMap){
+        var bern = {
+            zoom: 15,
+            center:{lat:46.9480,lng:7.4474},
+            mapTypeId: "satellite",
+        }
+        var map = new
+        google.maps.Map(document.getElementById('map'), bern);
+    });
+
+    $("#annecy-button").click(function(initMap){
+        var annecy = {
+            zoom: 15,
+            center:{lat:45.8992,lng:6.1294},
+            mapTypeId: "satellite",
+        }
+        var map = new
+        google.maps.Map(document.getElementById('map'), annecy);
+    });
+
+    $("#krakow-button").click(function(initMap){
+        var krakow = {
+            zoom: 15,
+            center:{lat:50.0647,lng:19.9450},
+            mapTypeId: "satellite",
+        }
+        var map = new
+        google.maps.Map(document.getElementById('map'), krakow);
+    });
+
+     $("#tblisi-button").click(function(initMap){
+        var tblisi = {
+            zoom: 15,
+            center:{lat:41.7151,lng:44.8271},
+            mapTypeId: "satellite",
+        }
+        var map = new
+        google.maps.Map(document.getElementById('map'), tblisi);
+    });

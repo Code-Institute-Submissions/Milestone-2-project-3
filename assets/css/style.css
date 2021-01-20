@@ -344,7 +344,7 @@ a:hover {
 /*----------------------------westeurope*/
 
 .hero-weurope {
-    height: 240vh;
+    height: 275vh;
     background: url("/assets/images/weuropebackgroundimg.jpg") no-repeat top center;
     background-size: cover;
     padding-bottom: 0px;
@@ -361,7 +361,7 @@ a:hover {
 /*----------------------------easteurope*/
 
 .hero-eeurope {
-    height: 240vh;
+    height: 275vh;
     background: url("/assets/images/eeuropebackgroundimg.jpg") no-repeat top center;
     background-size: cover;
     padding-bottom: 0px;
@@ -544,8 +544,15 @@ a:hover {
 }
 
 .resort-info {
-    padding: 20px;
+    padding: 75px;
     text-align: center;
+
+}
+
+#map {
+    height: 400px;
+    width: 2400px;
+    box-shadow: 0 0 2px;
 }
 
 .resort-info h3 {
@@ -591,6 +598,29 @@ a:hover {
     transform: scale(1.15);
 }
 
+@media screen and (max-width: 1024px){
+    .hero-eeurope, .hero-weurope {
+        height: 250vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-eeurope, .hero-weurope {
+        height: 200vh;
+    }
+    .map-info-container {
+        flex-direction: column;
+    }
+    .resort-info {
+        padding: 25px;
+    }
+    #map {
+        align-self: center;
+        max-width: 75%;
+        height: 220px;
+    }
+}
+
 @media screen and (max-width: 600px){
     .img-container {
         flex-direction: column;
@@ -602,37 +632,26 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 1024px){
-    .hero-eeurope, .hero-weurope {
-        height: 150vh;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .hero-eeurope, .hero-weurope {
-        height: 200vh;
-    }
-}
-
 @media screen and (max-width: 415px){
     .hero-eeurope, .hero-weurope {
-        height: 300vh;
+        height: 350vh;
     }
 }
 @media screen and (max-width: 375px){
     .hero-eeurope, .hero-weurope {
-        height: 330vh;
+        height: 360vh;
     }
 }
 
 @media screen and (max-width: 360px){
     .hero-eeurope, .hero-weurope {
-        height: 350vh;
+        height: 370vh;
     }
 }
 
 @media screen and (max-width: 320px){
     .hero-eeurope, .hero-weurope {
-        height: 420vh;
+        height: 440vh;
     }
 }
+

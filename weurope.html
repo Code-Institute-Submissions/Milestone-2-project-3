@@ -43,11 +43,22 @@
             <button id="bern-button">Bern</button>
         </div>       
         <div class="map-info-container">
-            <div class="map"></div>
             <div class="resort-info">
                 <h3 class="info-heading" id="info-head-toggle-west">Annecy</h3>
                 <p class="info-main id" id="info-p-toggle-west">Annecy is an alpine town in southeastern France, where Lake Annecy feeds into the Thiou River. It’s known for its Vieille Ville (old town), with cobbled streets, winding canals and pastel-colored houses. Overlooking the city, the medieval Château d’Annecy, once home to the Counts of Geneva, contains a museum with regional artifacts such as religious art.</p>
             </div>
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                    var annecy = {
+                        zoom: 14,
+                        center:{lat:45.8992,lng:6.1294},
+                        mapTypeId: "satellite",
+                     }
+                    var map = new
+                    google.maps.Map(document.getElementById('map'), annecy);
+                };
+            </script>
         </div>
          <div class="img-container">
             <img class="resort-image" id="image-one-west" src="assets/images/annecycastle.jpg" alt="Castle Duingt">
@@ -92,9 +103,9 @@
             </div>
         </div>
     </footer>
-
     <script type="text/javascript" src="/assets/js/ani.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB015yqlXCQtnOHUnlekb_zuY0m1xG81YU&callback=initMap&libraries=&v=weekly" defer></script>
 </body>
 </html>

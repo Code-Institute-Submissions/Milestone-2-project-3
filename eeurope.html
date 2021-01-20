@@ -43,11 +43,22 @@
             <button id="krakow-button">Krakow</button>
         </div>    
         <div class="map-info-container">
-            <div class="map"></div>
             <div class="resort-info">
                 <h3 id="info-head-toggle-east">Tblisi</h3>
                 <p class="info-main" id="info-p-toggle-east">Tblisi is the capital of the country of Georgia. Its cobblestoned old town reflects a long, complicated history, with periods under Persian and Russian rule. Its diverse architecture encompasses Eastern Orthodox churches, ornate art nouveau buildings and Soviet Modernist structures. Looming over it all are Narikala, a reconstructed 4th-century fortress, and Kartlis Deda, an iconic statue of the “Mother of Georgia.”</p>
             </div>
+            <div id="map"></div>
+                <script>
+                function initMap() {
+                    var tblisi = {
+                        zoom: 14,
+                        center:{lat:41.7151,lng:44.8271},
+                        mapTypeId: "satellite",
+                     }
+                    var map = new
+                    google.maps.Map(document.getElementById('map'), tblisi);
+                };
+            </script>
         </div>
         <div class="img-container">
             <img class="resort-image" id="image-one-east" src="assets/images/tblisistatue.jpg" alt="Tblisi Church">
@@ -92,9 +103,9 @@
             </div>
         </div>
     </footer>
-
     <script type="text/javascript" src="/assets/js/ani.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB015yqlXCQtnOHUnlekb_zuY0m1xG81YU&callback=initMap&libraries=&v=weekly" defer></script>
 </body>
 </html>
