@@ -67,17 +67,17 @@ $(document).ready(function() {
         $("#image-one-east").attr("src","assets/images/krakowmound.jpg"), $("#image-two-east").attr("src","assets/images/krakowhead.jpg"), $("#image-three-east").attr("src","assets/images/krakowtown.jpg");
     });
 
-    $("#tblisi-button").click(function(){
-        $("#info-head-toggle-east").html("TBLISI"), $("#info-p-toggle-east").html("Tblisi is the capital of the country of Georgia. Its cobblestoned old town reflects a long, complicated history, with periods under Persian and Russian rule. Its diverse architecture encompasses Eastern Orthodox churches, ornate art nouveau buildings and Soviet Modernist structures. Looming over it all are Narikala, a reconstructed 4th-century fortress, and Kartlis Deda, an iconic statue of the “Mother of Georgia.");
+    $("#tbilisi-button").click(function(){
+        $("#info-head-toggle-east").html("TBILISI"), $("#info-p-toggle-east").html("Tbilisi is the capital of the country of Georgia. Its cobblestoned old town reflects a long, complicated history, with periods under Persian and Russian rule. Its diverse architecture encompasses Eastern Orthodox churches, ornate art nouveau buildings and Soviet Modernist structures. Looming over it all are Narikala, a reconstructed 4th-century fortress, and Kartlis Deda, an iconic statue of the “Mother of Georgia.");
     });
-    $("#tblisi-button").click(function(){
+    $("#tbilisi-button").click(function(){
         $("#poi-one-east").html("Perched on the banks of the Mtkvari River against a striking mountainous backdrop, Tbilisi is one of the world’s oldest settlements: archaeologists have found evidence of human habitation dating back to 4,000 BC."), $("#poi-two-east").html("The thermal waters bubbling below Tbilisi have played a vital role in the city’s history. Legend has it that King Vakhtang Gorgasal chose the site for the city after his hunting falcon returned with a pheasant that had been poached in its waters.");
     });
-    $("#tblisi-button").click(function(){
+    $("#tbilisi-button").click(function(){
         $("#poi-three-east").html("Where to begin with museums? There are well over 15 within the city. Start with the classics: The Georgian National Museum, the Georgia Museum of Art and the Tbilisi History Museum will help paint a picture of the city and the country's fascinating past."), $("#poi-four-east").html("If you want to dig deeper, head to the Tbilisi Open Air Museum of Ethnography, home to countless artefacts important to Georgian folk culture. For arty types, Moma and the Silk Museum are two design-and-textile focused attractions worth visiting. Last but not least, explore the niche worlds of puppets and Soviet cars at the Tbilisi Puppet Museum and Tbilisi AutoMuseum.");
     });
 
-    $("#tblisi-button").click(function(){
+    $("#tbilisi-button").click(function(){
         $("#image-one-east").attr("src","assets/images/tblisistatue.jpg"), $("#image-two-east").attr("src","assets/images/tblisitown.jpg"), $("#image-three-east").attr("src","assets/images/tblisichurch.jpg");
     });
 }); 
@@ -112,12 +112,12 @@ $(document).ready(function() {
         google.maps.Map(document.getElementById('map'), krakow);
     });
 
-     $("#tblisi-button").click(function(initMap){
-        var tblisi = {
+     $("#tbilisi-button").click(function(initMap){
+        var tbilisi = {
             zoom: 15,
             center:{lat:41.7151,lng:44.8271},
             mapTypeId: "satellite",
         };
         var map = new
-        google.maps.Map(document.getElementById('map'), tblisi);
+        google.maps.Map(document.getElementById('map'), tbilisi);
     });

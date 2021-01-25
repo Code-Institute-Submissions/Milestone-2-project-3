@@ -1,14 +1,14 @@
 # Europa Legatum
 
-A window into historic Europe allowing the visitor of the website to see into a different side of vacations and trips abroad. *Europa Legatum* helps their user find alternate locations than would normally be suggested on the front page of alternate websites offering locations and cities that boast a large amount of activities and historically based entertainment. Featuring interactive pages for both Western and Eastern Europe as a basis, a contact form for planning and organising bespoke personalised trips and an inviting home page letting every visitor know exactly what they can hope to achieve from the *Europa Legatum* site.
+A window into historic Europe allowing the visitor of the website to see a different side of vacations and trips abroad. *Europa Legatum* helps their user find alternate locations than would normally be suggested on the front page of alternate websites offering locations and cities that boast a large number of activities and historically based entertainment. Featuring interactive pages for both Western and Eastern Europe as a basis, a contact form for planning and organizing bespoke personalized trips, and an inviting home page letting every visitor know exactly what they can hope to achieve from the *Europa Legatum* site.
 
 ---
 
 ## UX
 
-The *Europa Legatum* page is intended to create a sense of grandeur and possibility as soon as the landing page loads. Each page shows a large hero image to give the user a sense of the sort of locations they will be able to see should they follow through with their use of the site. The main focus of the site is on it's locations and as such the design choices and layout are chosen to create a stripped back site which allows visitors to focus on the presented content.
+The *Europa Legatum* page is intended to create a sense of grandeur and possibility as soon as the landing page loads. Each page shows a large hero image to give the user a sense of the sort of locations they will be able to see should they follow through with their use of the site. The main focus of the site is on its locations and as such the design choices and layout are chosen to create a stripped-back site that allows visitors to focus on the presented content.
 
-* As a new user I want to be inspired upon loading the site and see exactly what the site can offer me as opposed to competitors and what sets it apart from other travel sites, through ethos, individuality and webpage design.
+* As a new user I want to be inspired upon loading the site and see exactly what the site can offer me as opposed to competitors and what sets it apart from other travel sites, through ethos, individuality, and webpage design.
 
 <img width="1276" alt="MS2 user story 1" src="https://user-images.githubusercontent.com/68287350/105715869-06076800-5f16-11eb-81d8-a89a9b0369cc.png">
 
@@ -36,27 +36,27 @@ The *Europa Legatum* page is intended to create a sense of grandeur and possibil
 
 #### Exisiting Features
 
-1. Navigation bar - allows users to navigate between pages easily with identifiable descriptors and easy to understand structure. Is consistent across the entire platform. Current page is marked so that user's can naviagate seamlessly and efficiently. Brand logo takes user's back to home/landing page as is industry standard
+1. Navigation bar - allows users to navigate between pages easily with identifiable descriptors and an easy to understand structure. Is consistent across the entire platform. The current page is marked so that users can navigate seamlessly and efficiently. The brand logo takes the user's back to the home/landing page as is industry standard
 
-2. Social Media bar - allows users to visit Social media content for Europa Legatum, from Pinterest to YouTube. Each link uses the well known icon clearly showing the linked site and takes the user to a new page for good UX. 
+2. Social Media bar - allows users to visit Social media content for Europa Legatum, from Pinterest to YouTube. Each link uses the well-known icon clearly showing the linked site and takes the user to a new page for good UX. 
 
-3. Contact page/form - allows users to contact *Europa Legatum* with ease providing all the neccessary information in defined boxes so that communication is simple. This form is linked to emailJS using their API which allows personal and quick responses with the business and their staff.
+3. Contact page/form - allows users to contact *Europa Legatum* with ease providing all the necessary information in defined boxes so that communication is simple. This form is linked to emailJS using their API which allows personal and quick responses with the business and their staff.
 
-4. Toggleable content - using Javascript and Jquery this allows users to toggle between destinations while staying on the same page, this cuts down on loading times and back and forth between pages allowing users to compare and contrast potential resorts. Each toggle include specific images, information and integrated Google maps changing location depending on the currently selected destination.
+4. Toggleable content - using Javascript and Jquery allows users to toggle between destinations while staying on the same page, this cuts down on loading times and back and forth between pages allowing users to compare and contrast potential resorts. Each toggle includes specific images, information, and integrated Google maps changing location depending on the currently selected destination.
 
-5. Interactive testimonials/reviews - allows the user to view feedback from previous users and upon interacting with these reviews they will present further information such as destination and data of travel
+5. Interactive testimonials/reviews - allows the user to view feedback from previous users and upon interacting with these reviews they will present further information such as destination and date of travel
 
 #### Future Feature Ideas
 
 1. Live chat functionality - this will allow users to engage with the *Europa Legatum* more efficiently for more specific and direct questions.
 
-2. Southern Europe - branching out from Western and Eastern Europe will allow users to view and see information for resorts and destinations within the culture rich south of Euope from Rome to Athens and then less travelled islands of Corsica and Sardinia.
+2. Southern Europe - branching out from Western and Eastern Europe will allow users to view and see information for resorts and destinations within the culture-rich south of Europe from Rome to Athens and then less-traveled islands of Corsica and Sardinia.
 
-3. Historic page - this page will push forward the selling point of the brand which is a strong focus on history and providing culture rich vacations. This page will break down into different historic time periods from Ancient to Modern and will lean heavily on leading and associating historic event and periods to countries, cities and destinations. This will allow users to find their perfect vacation.
+3. Historic page - this page will push forward the selling point of the brand which is a strong focus on history and providing culture-rich vacations. This page will break down into different historic time periods from Ancient to Modern and will lean heavily on leading and associating historic events and periods to countries, cities, and destinations. This will allow users to find their perfect vacation.
 
-4. Special packages and tours - allows the user to harness *Euopa Legatums* specialist and expert knowledge to book special historic tours on specific dates during their holiday, these will be a mix of in person tours if a rep is present but also will be app based which will guide you with directions and give information when particular points are reached.
+4. Special packages and tours - allows the user to harness *Europa Legatums* specialist and expert knowledge to book special historic tours on specific dates during their holiday, these will be a mix of in-person tours if a rep is present but also will be app-based which will guide you with directions and give information when particular points are reached.
 
-5. Interactive Google maps inc. markers - allows user's to browse map of Europe to find resorts via markers which when clicked brings up useful detailed information without loading new page. 
+5. Interactive Google maps inc. markers - allows users to browse maps of Europe to find resorts via markers which when clicked brings up useful detailed information without loading a new page. 
 
 ## Technologies Used
 
@@ -211,35 +211,35 @@ The *Europa Legatum* page is intended to create a sense of grandeur and possibil
         - When mouse enters review field the slideUp animation is triggered and content replaced with the intended value. Upon leaving the field with the cursor the animation is again triggered and the content reverts back to original content as intended.
 
 ## Deployment
-1. Throughout project development, use of 'git add' and 'git commit' functions within project terminal to save changes and document development process. Each commit message explains and shows changes since last version and provides information to user's viewing the repository.
+1. Throughout project development, use of 'git add' and 'git commit' functions within project terminal to save changes and document development process. Each commit message explains and shows changes since the last version and provides information to users viewing the repository.
 2. Throughout development regular use of 'git push' function. This function pushes changed/new code to GitHub and ensures the code is safe and protected from potential loss or system/cloud error.
-3. Once project completed visit the repository via GitHub @ *https://github.com/GreigBenton/Milestone-2-project*
+3. Once the project completed visit the repository via GitHub @ *https://github.com/GreigBenton/Milestone-2-project*
 4. From here visit Settings to find deployment steps.
-5. Scroll down to GitHub pages section.
-6. Ensure master branch is selected and *Save*.
+5. Scroll down to the GitHub pages section.
+6. Ensure the master branch is selected and *Save*.
 7. Project is now visible and live @ *https://greigbenton.github.io/Milestone-2-project/.*
 
 #### Local Cloning
 1. After downloading GitHub Desktop user logs into to their GitHub profile
-2. Selects the respository and branch they wish to clone
+2. Selects the repository and branch they wish to clone
 3. Denotes the local path 
 4. Clicks 'Clone'
 
 #### Differences deployed and development version
 1. Upon initial deployment background/hero images were not loading.
 2. Resolved via updating file paths for these images within the style.css file.
-3. No further differences between deployed and development version.
+3. No further differences between deployed and development versions.
 
 ## Credits
 
 #### Content
 - Annecy travel information was taken from [theculturetrip.com](https://theculturetrip.com/europe/france/articles/10-reasons-why-you-must-visit-annecy-france/)
 - Bern travel information was taken from [holidaystoswitzerland.com](https://holidaystoswitzerland.com/things-to-do-in-bern/)
-- Tblisi travel information was taken from [wanderlust.co.uk](https://www.wanderlust.co.uk/content/top-things-to-do-tbilisi-georgia/)
+- Tbilisi travel information was taken from [wanderlust.co.uk](https://www.wanderlust.co.uk/content/top-things-to-do-tbilisi-georgia/)
 - Krakow travel information was taken from [discovercracow.com](https://discovercracow.com/things-to-do-in-krakow/)
 
 #### Media
 - All images were taken from [Pixabay](pixabay.com)
 
 #### Inspiration
-- No direct inspiration was taken but instead took inspiration from my knowledge of History studying this in College and University and also historic programming I have witnessd over the years.
+- No direct inspiration was taken but instead took inspiration from my knowledge of History studying this in College and University and also historic programming I have witnessed over the years.
