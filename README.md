@@ -243,3 +243,5 @@ The *Europa Legatum* page is intended to create a sense of grandeur and possibil
 
 #### Inspiration
 - No direct inspiration was taken but instead took inspiration from my knowledge of History studying this in College and University and also historic programming I have witnessed over the years.
+
+-----
