@@ -24,7 +24,7 @@ body {
 
 .hero-landing {
     height: 170vh;
-    background: url("../assets/images/europelandingpage.jpg");
+    background: url("../images/europelandingpage.jpg");
     background-size: cover;
     padding-bottom: 0px;
     z-index: -1;
