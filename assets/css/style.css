@@ -345,7 +345,7 @@ a:hover {
 
 .hero-weurope {
     height: 275vh;
-    background: url("assets/images/weuropebackgroundimg.jpg") no-repeat top center;
+    background: url("../images/weuropebackgroundimg.jpg") no-repeat top center;
     background-size: cover;
     padding-bottom: 0px;
     z-index: -1;
@@ -362,7 +362,7 @@ a:hover {
 
 .hero-eeurope {
     height: 275vh;
-    background: url("assets/images/eeuropebackgroundimg.jpg") no-repeat top center;
+    background: url("../images/eeuropebackgroundimg.jpg") no-repeat top center;
     background-size: cover;
     padding-bottom: 0px;
     z-index: -1;
@@ -378,7 +378,7 @@ a:hover {
 
 .hero-contact {
     height: 95vh;
-    background: url("assets/images/contactheroimage.jpg");
+    background: url("../images/contactheroimage.jpg");
     background-size: cover;
     padding-bottom: 0px;
     z-index: -1;

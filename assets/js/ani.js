@@ -16,7 +16,7 @@ $(document).ready(function() {
         }); 
     }); 
 
-    $("#review-bubble-2").click(function() { 
+    $("#review-bubble-2").mouseenter(function() { 
         $("#review-bubble-2 p").slideToggle("slow", 
                 function callback() { 
             $("#review-bubble-2 p").text("Krakow, Poland").css("font-size", "30px");
