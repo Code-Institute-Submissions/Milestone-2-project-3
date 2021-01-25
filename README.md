@@ -157,6 +157,27 @@ The *Europa Legatum* page is intended to create a sense of grandeur and possibil
         - When clicked the 'Krakow' button zoomed to the correct coordinations of lat:50.0647,lng:19.9450 as intended.
         - When clicked the 'Tblisi' button zoomed to the correct coordinations of lat:41.7151,lng:44.8271 as intended.
 
-#### Image/Review Hover Interactivty 
+#### Hover/Mouseover Interactivty 
     1. *Expected results*
-        -
+        - When hovered over images on Western Europe and Eastern Europe pages should increase in scale without obscuring other images. 
+        - When cursor leaves image the image should return to standard scale.
+        - When mouse enters review speech box on landing page text content should be replaced with location of trip via a slideUp and slideDown function.
+        - When mouse leaves review speech box the content should revert back to original content again with slideUp/SlideUp function.
+    2. *Reasons for testing*
+        - User testing is required to ensure a level of interactivity across the site to push user engagement and provide extra content.
+    3. *Tests performed*
+        - To test image hover is working correctly the user will visit the Western/Eastern Europe pages and hover the cursor over each image.
+        - To test review mouseenter/mouseleave is working correctly the user will place cursor inside of the landing page speech bubble/speech box and hold there until function/animation completes. Once it has the user will then place cursor outside of the speech box/bubble to revert the content.
+    4. *Testing Results*
+        - When hovering over images each image increased in scale by the appropriate amount, growing in size without obscuring the other images present. When cursor left the image field the images then reverted back to their original size as intended.
+        - When mouse enters review field the slideUp animation is triggered and content replaced with the intended value. Upon leaving the field with the cursor the animation is again triggered and the content reverts back to original content as intended.
+
+## Deployment
+    1. Throughout project development, use of 'git add' and 'git commit' functions within project terminal to save changes and document development process. Each commit message explains and shows changes since last version and provides information to user's viewing the repository.
+    2. Throughout development regular use of 'git push' function. This function pushes changed/new code to GitHub and ensures the code is safe and protected from potential loss or system/cloud error.
+    3. Once project completed visit the repository via GitHub @ *https://github.com/GreigBenton/Milestone-2-project*
+    4. From here visit Settings to find deployment steps.
+    5. Scroll down to GitHub pages section.
+    6. Ensure master branch is selected and *Save*.
+    7. Project is now visible and live @ *https://greigbenton.github.io/Milestone-2-project/.*
+    
