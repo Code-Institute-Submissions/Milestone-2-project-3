@@ -1,8 +1,6 @@
 $(document).ready(function() { 
 
-
-
-    $("#review-bubble").mouseenter(function() { 
+     $("#review-bubble").mouseenter(function() { 
         $("#review-bubble p").slideToggle("slow", 
                 function callback() { 
             $("#review-bubble p").text("Aquitaine, France").css("font-size", "30px");
@@ -89,7 +87,7 @@ $(document).ready(function() {
             zoom: 15,
             center:{lat:46.9480,lng:7.4474},
             mapTypeId: "satellite",
-        }
+        };
         var map = new
         google.maps.Map(document.getElementById('map'), bern);
     });
@@ -99,7 +97,7 @@ $(document).ready(function() {
             zoom: 15,
             center:{lat:45.8992,lng:6.1294},
             mapTypeId: "satellite",
-        }
+        };
         var map = new
         google.maps.Map(document.getElementById('map'), annecy);
     });
@@ -109,7 +107,7 @@ $(document).ready(function() {
             zoom: 15,
             center:{lat:50.0647,lng:19.9450},
             mapTypeId: "satellite",
-        }
+        };
         var map = new
         google.maps.Map(document.getElementById('map'), krakow);
     });
@@ -119,7 +117,7 @@ $(document).ready(function() {
             zoom: 15,
             center:{lat:41.7151,lng:44.8271},
             mapTypeId: "satellite",
-        }
+        };
         var map = new
         google.maps.Map(document.getElementById('map'), tblisi);
     });
