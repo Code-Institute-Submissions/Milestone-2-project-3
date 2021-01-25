@@ -345,7 +345,7 @@ a:hover {
 
 .hero-weurope {
     height: 275vh;
-    background: url("../images/weuropebackgroundimg.jpg") no-repeat top center;
+    background: url("../images/weuropebackgroundimg.jpg");
     background-size: cover;
     padding-bottom: 0px;
     z-index: -1;
@@ -362,7 +362,7 @@ a:hover {
 
 .hero-eeurope {
     height: 275vh;
-    background: url("../images/eeuropebackgroundimg.jpg") no-repeat top center;
+    background: url("../images/eeuropebackgroundimg.jpg");
     background-size: cover;
     padding-bottom: 0px;
     z-index: -1;
