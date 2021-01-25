@@ -10,15 +10,27 @@ The *Europa Legatum* page is intended to create a sense of grandeur and possibil
 
 * As a new user I want to be inspired upon loading the site and see exactly what the site can offer me as opposed to competitors and what sets it apart from other travel sites, through ethos, individuality and webpage design.
 
+<img width="1276" alt="MS2 user story 1" src="https://user-images.githubusercontent.com/68287350/105715869-06076800-5f16-11eb-81d8-a89a9b0369cc.png">
+
 * As a new user I want to be able to view feedback from previous patrons so that I can gauge the quality of the service provided and view information to help me judge that feedback such as where the reviewer vacationed.
+
+<img width="1280" alt="MS2 user story 2" src="https://user-images.githubusercontent.com/68287350/105715886-0acc1c00-5f16-11eb-9532-dccbb4fecd2d.png">
 
 * As a new user I want to be able to know exactly what information I will be presented with when I load a new page and be able to accurately and with agility know how to traverse the site with informative links and navigation.
 
+<img width="665" alt="MS2 user story 3" src="https://user-images.githubusercontent.com/68287350/105715913-13bced80-5f16-11eb-9b2b-36a80eb1bcc6.png">
+
 * As a new user I want to be able to contact the *Europa Legatum* team should I have further questions or want to plan a special vacation away. This contact form should be easy to find and easy to use.
+
+<img width="834" alt="MS2 user story 4" src="https://user-images.githubusercontent.com/68287350/105715917-14558400-5f16-11eb-9995-f211b24af3b8.png">
 
 * As a new user I want to be able to view *Europa Legatum's* communication via their social channels so I can keep up to date with any new features, offers and deals that may be on offer. These Social Links should be present on each page and easy to locate, they should also successfully take me to a new page upon following the link.
 
+<img width="1272" alt="MS2 user story 5" src="https://user-images.githubusercontent.com/68287350/105715946-1ae3fb80-5f16-11eb-9d58-3b5697282b0d.png">
+
 * As a new user I want to be able to view a zoomable interactive map that will allow me to virtually explore the advertised destination.
+
+<img width="1159" alt="MS2 user story 6" src="https://user-images.githubusercontent.com/68287350/105715967-21727300-5f16-11eb-91ce-8b32c8423d4c.png">
 
 ## Features
 
